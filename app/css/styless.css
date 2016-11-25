@@ -1,0 +1,53 @@
+/* Mixin */
+body {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+/* Implementation on well */
+.well {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  background-color: #f2f2f2;
+  border-color: #000000;
+}
+.well .caption {
+  color: #000000;
+  text-align: center;
+}
+.small .caption {
+  text-align: left;
+}
+/*animation of pictures*/
+#animation {
+  position: relative;
+}
+#animation img {
+  position: absolute;
+  left: 0px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+@keyframes animation {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#animation img.top {
+  animation-name: animation;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}

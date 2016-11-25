@@ -1,0 +1,57 @@
+/* Mixin */
+.border-radius (@radius: 15px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+@light-grey:#f2f2f2;
+@black:#000000;
+@textcenter:center;
+@textleft:left;
+body{
+    background-color:@light-grey;
+    text-align: @textcenter;
+}
+/* Implementation on well */
+.well {
+	.border-radius(35px);
+  background-color:@light-grey;
+  border-color: @black;
+  .caption{
+    color:@black;
+    text-align:@textcenter;
+  }
+}
+.small{
+	.caption{
+		text-align:@textleft;
+	}
+}
+/*animation of pictures*/
+#animation
+{
+position:relative;
+}
+#animation img
+{
+position:absolute;
+left:0px;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+@keyframes animation
+{
+0% {  opacity:1;}
+45% {opacity:1;}
+55% {opacity:0;}
+100% {opacity:0;}}
+#animation img.top
+{
+animation-name:animation;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}

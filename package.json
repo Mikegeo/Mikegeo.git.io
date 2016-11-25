@@ -1,0 +1,17 @@
+{
+  "name": "gym-partner",
+  "version": "1.0.0",
+  "description": "assign1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michalis Georgiou",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
