@@ -11,7 +11,7 @@ var diet=(function(){
 	function createHandler(day)
 	{
 		return function(){
-			ajax.makeRequest("data/"+day.id+".json",displayDayDetails);
+			ajax.makeRequest("../data/"+day.id+".json",displayDayDetails);
 		}
 	}
 	function displayDayDetails(day)
