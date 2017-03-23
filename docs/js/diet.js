@@ -52,7 +52,7 @@ var diet=(function(){
 		preworkoutLi=document.getElementById("preworkout");
 		afterworkoutLi=document.getElementById("afterworkout");
 		dinnerLi=document.getElementById("dinner");
-		ajax.makeRequest("https://github.com/Mikegeo/Mikegeo.git.io/blob/master/docs/data/days.json",populateList);
+		ajax.makeRequest("../docs/data/days.json",populateList);
 		backBtn=document.getElementById("backBtn");
 		backBtn.addEventListener("click", backToList, false)
 	}
