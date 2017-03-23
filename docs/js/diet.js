@@ -11,7 +11,7 @@ var diet=(function(){
 	function createHandler(day)
 	{
 		return function(){
-			ajax.makeRequest("../data/"+day.id+".json",displayDayDetails);
+			ajax.makeRequest("../blob/master/docs/data/"+day.id+".json",displayDayDetails);
 		}
 	}
 	function displayDayDetails(day)
@@ -52,7 +52,7 @@ var diet=(function(){
 		preworkoutLi=document.getElementById("preworkout");
 		afterworkoutLi=document.getElementById("afterworkout");
 		dinnerLi=document.getElementById("dinner");
-		ajax.makeRequest("blob/master/docs/data/days.json",populateList);
+		ajax.makeRequest("../blob/master/docs/data/days.json",populateList);
 		backBtn=document.getElementById("backBtn");
 		backBtn.addEventListener("click", backToList, false)
 	}
