@@ -51,3 +51,12 @@ body {
   animation-duration: 2s;
   animation-direction: alternate;
 }
+
+#dvTable, th, td {
+    
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}

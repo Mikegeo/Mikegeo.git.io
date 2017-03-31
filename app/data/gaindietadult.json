@@ -1,0 +1,58 @@
+[
+	{
+    "name":"Monday",
+  	"breakfast":"Protein shake with oats",
+  	"lunch":"Chicken breast rice",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake with one banana",
+    "dinner":"Salmon with sweet potato and salad"
+	},
+	{
+    "name":"Tuesday",
+  	"breakfast":"Protein shake with oats",
+  	"lunch":"Steak with sweet potato and salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake and a banana",
+    "dinner":"Tuna with salad and rice"
+	},
+	{
+    "name":"Wednesday",
+  	"breakfast":"6 boiled eggs and oats",
+  	"lunch":"Chicken breast with pasta",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake with a banana",
+    "dinner":"Red meat with pasta or rice and salad"
+	},
+  {
+    "name":"Thursday",
+  	"breakfast":"6 eggs omelate",
+  	"lunch":"Salmon with rice and salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake with a banana",
+    "dinner":"Chicken breast with salad and pasta"
+  },
+  {
+    "name":"Friday",
+  	"breakfast":"Protein shake with oats",
+  	"lunch":"Chicken breast with sweet potato and salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake with a banana",
+    "dinner":"Salmon with rice and salad"
+  },
+  {
+    "name":"Saturday",
+  	"breakfast":"6 boiled eggs with 4 toast with peanut butter",
+  	"lunch":"Red meat with rice and salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake with a banana",
+    "dinner":"Make your own dinner"
+  },
+  {
+    "name":"Sunday",
+  	"breakfast":"Protein shake with oats",
+  	"lunch":"Salmon with rice and salad",
+    "preworkout":"Day off",
+    "afterworkout":"Day off",
+    "dinner":"Chicken breast with salad and sweet potato"
+  }
+]

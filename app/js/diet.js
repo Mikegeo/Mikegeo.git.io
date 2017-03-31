@@ -62,3 +62,79 @@ var diet=(function(){
 })();
 
 diet.init();
+
+function GenerateTable() {
+            //Build an array containing Food records.
+            var food = new Array();
+            food.push(["Meal No.", "Name"]);
+            food.push([1, "Protein shake"]);
+            food.push([2, "6 Egg whites",]);
+            food.push([3, "Omelate"]);
+            food.push([4, "Oats with almonds"]);
+
+            //Create a HTML Table element.
+            var table = document.createElement("TABLE");
+            table.border = "1";
+
+            //Get the count of columns.
+            var columnCount = food[0].length;
+
+            //Add the header row.
+            var row = table.insertRow(-1);
+            for (var i = 0; i < columnCount; i++) {
+                var headerCell = document.createElement("TH");
+                headerCell.innerHTML = food[0][i];
+                row.appendChild(headerCell);
+            }
+
+            //Add the data rows.
+            for (var i = 1; i < food.length; i++) {
+                row = table.insertRow(-1);
+                for (var j = 0; j < columnCount; j++) {
+                    var cell = row.insertCell(-1);
+                    cell.innerHTML = food[i][j];
+                }
+            }
+
+            var dvTable = document.getElementById("dvTable");
+            dvTable.innerHTML = "";
+            dvTable.appendChild(table);
+        }
+
+        function GenerateTable1() {
+                    //Build an array containing food records.
+                    var food = new Array();
+                    food.push(["Meal No.", "Name"]);
+                    food.push([1, "Chicken breast with rice"]);
+                    food.push([2, "Pork chop with rice",]);
+                    food.push([3, "Salmon with pasta"]);
+                    food.push([4, "Tuna with salad"]);
+
+                    //Create a HTML Table element.
+                    var table = document.createElement("TABLE");
+                    table.border = "1";
+
+                    //Get the count of columns.
+                    var columnCount = food[0].length;
+
+                    //Add the header row.
+                    var row = table.insertRow(-1);
+                    for (var i = 0; i < columnCount; i++) {
+                        var headerCell = document.createElement("TH");
+                        headerCell.innerHTML = food[0][i];
+                        row.appendChild(headerCell);
+                    }
+
+                    //Add the data rows.
+                    for (var i = 1; i < food.length; i++) {
+                        row = table.insertRow(-1);
+                        for (var j = 0; j < columnCount; j++) {
+                            var cell = row.insertCell(-1);
+                            cell.innerHTML = food[i][j];
+                        }
+                    }
+
+                    var dvTable = document.getElementById("dvTable");
+                    dvTable.innerHTML = "";
+                    dvTable.appendChild(table);
+                }

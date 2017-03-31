@@ -1,0 +1,58 @@
+[
+	{
+    "name":"Monday",
+  	"breakfast":"Protein shake",
+  	"lunch":"Chicken breast rice",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake",
+    "dinner":"Salmon with salad"
+	},
+	{
+    "name":"Tuesday",
+  	"breakfast":"Protein shake with oats",
+  	"lunch":"Steak with salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake",
+    "dinner":"Tuna with salad"
+	},
+	{
+    "name":"Wednesday",
+  	"breakfast":"6 boiled eggs only the whites and oats",
+  	"lunch":"Chicken breast",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake",
+    "dinner":"Red meat with salad"
+	},
+  {
+    "name":"Thursday",
+  	"breakfast":"4 eggs omelate",
+  	"lunch":"Salmon with rice and salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake",
+    "dinner":"Chicken breast with salad"
+  },
+  {
+    "name":"Friday",
+  	"breakfast":"Protein shake with oats",
+  	"lunch":"Chicken breast with salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake",
+    "dinner":"Salmon with salad"
+  },
+  {
+    "name":"Saturday",
+  	"breakfast":"6 boiled eggs only the white",
+  	"lunch":"Red meat with rice and salad",
+    "preworkout":"Amino acids with juice",
+    "afterworkout":"Protein shake",
+    "dinner":"Make your own dinner"
+  },
+  {
+    "name":"Sunday",
+  	"breakfast":"Protein shake",
+  	"lunch":"Salmon with rice and salad",
+    "preworkout":"Day off",
+    "afterworkout":"Day off",
+    "dinner":"Chicken breast with salad"
+  }
+]
