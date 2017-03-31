@@ -1,7 +1,7 @@
 {
   "name": "gym-partner",
   "version": "1.0.0",
-  "description": "assign1",
+  "description": "assign1 and assign2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
