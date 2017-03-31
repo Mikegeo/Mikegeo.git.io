@@ -99,6 +99,7 @@ function GenerateTable() {
   var dvTable = document.getElementById("dvTable");
   dvTable.innerHTML = "";
   dvTable.appendChild(table);
+
 }
 
   function GenerateTable1() {
